@@ -1,0 +1,22 @@
+1 - Criem um processo no spring initilizr com as dependencias:
+springWeb, Springa data JPA e Mysql driver
+
+2 - Importe o projeto para o intellij colocando o arquivo pom.xml
+
+3 - Crie o controller 
+
+4 - Crie o model 
+
+4 - Crie o Service
+
+5 - Crie o repository herdando tudo que o jpa tem passando o model como parametro. obs: No primeiro parametro vai passar a classe do model e no segundo qual o tipo primitivo do id.
+
+6 - Crie uma injeçao de dependencia no service pegando do repository (@autowired)
+
+7 - Crie o metodo de listar todos pegando o metodo findall do repository
+
+8 - Crie uma injeção de dependencia na classe controller pegando o service (@autowired)
+
+9 - Crie o metodo que vai retonar o Response entity passando a lista do model como parametro.
+
+10 - Corre pro abraço!

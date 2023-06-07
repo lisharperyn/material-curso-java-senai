@@ -1,0 +1,13 @@
+a,h1{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.carrossel img{
+    height: 50vh;
+    object-fit: cover;
+}
+
+.card-body{
+    border: 2px solid black;
+}
+

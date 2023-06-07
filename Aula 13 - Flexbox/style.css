@@ -1,0 +1,67 @@
+img{
+    width: 50%;
+    height: 50%;
+    object-fit: cover;
+}
+
+.div{
+    height: 100px;
+    width: 100px;
+    text-align: center;
+    /* border-width: 1px;
+    border-style: solid;
+    border-color: red; */
+    border: 1px solid black;
+}
+
+/* Align-self vai alinha no eixo contrario a propria div. Essa propriedade nao funciona no container. Como o nome sugere, alinhar voce mesmo, traduzindo do ingles. */
+.div1{
+    /* align-self: flex-end; */
+    background-color: red;
+   
+}
+
+.div2{
+    color: white;
+    background-color: blue;
+}
+
+.div3{
+    background-color: orange;
+    /* align-self: flex-start */
+}
+
+.titulo-div1{
+    color: white;
+    text-decoration: underline;
+}
+
+/* Display: flex - O container ganhar todas as propriedades do padrao de layout flexbgox. Por padrao so por passar um display flex, ele coloca as divs(elementos filhos) um do lado do outro.  */
+/* flex-direction - A primeira propridade que ganhamos onde define qual é o eixo principal do flex. Por padrao ele vem como row(linha)  */
+
+/* justify-content - Vamos lainhas os elementos no eixo principal que foi definido no flex-direction. A propriedades podem ser:  flex-start, center, flex-end, space-between, space-around e space-evenly */
+
+/* Align-items - Vai alinhas os elementos no eixo contrario que foi definido no flex direction. Se foi definido como row, ele vai alinhas na column. Se foi definido column, ele vai alinhar na row. Os valores podem ser: flex-start, center e flex-end */
+
+/* gap - É uma distancia pre estabelecida. Ela pode ser row-gap ou column-gap */
+
+/* flex-wrap - Propriedade que quebra as divs para a proxima linha. Quando se passa um flex-wrap, ganhamos uma nova propriedade de alinhamento. o align-content */
+
+/* Align-content - Alinha os elemenos quando existe uma flex-wrap; Os valores podem ser: flex-start, center e flex-end */
+
+
+.container{
+    width: 500px;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    /* gap: 20px; */
+    flex-wrap: wrap;
+    column-gap: 10px;
+    align-content: flex-start;
+    padding: 10px;
+    margin: 10px;
+    border: 2px solid black;
+}

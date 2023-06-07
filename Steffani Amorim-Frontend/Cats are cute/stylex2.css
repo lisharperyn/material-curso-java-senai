@@ -1,0 +1,66 @@
+body {
+    background-image: url(multiplecats.webp);
+}
+
+
+header{
+    margin-top: 50px;
+    margin-left: 100px;
+    margin-right: 100px;
+    text-align: center;
+    font-size: larger;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
+}
+
+a{
+    background-color: pink;
+    margin: 3%;
+    color: black;
+    margin-top: 20px;
+    padding: 10px;
+    border-radius: 10px;
+    text-decoration: none;
+    display: inline-block;
+
+}
+
+
+main{
+    margin-left: 400px;
+    margin-bottom: 200px;
+    width: 500px;
+    background-color: pink;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+main h1{
+    margin-left: 30px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+main h2{
+    margin-left: 30px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+main p{
+    margin-right: 40px;
+    margin-left: 30px;
+    
+}
+
+ul {
+    margin-right: 40px;
+    margin-left: 30px;
+}
+
+img{
+    width: 450px;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    
+}
+

@@ -1,0 +1,12 @@
+.container{
+    box-shadow: 3px 3px 3px gray;
+    background: linear-gradient(to right, indigo, purple );
+}
+
+.titulo{
+    font-family:Verdana, Geneva, Tahoma, sans-serif
+}
+
+.form-control{
+    display: block;
+}

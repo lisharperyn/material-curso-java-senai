@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #div{
+            padding: 10px;
+            border: 1px solid black;
+            width: 200px;
+            height: 200px;
+            background-color: blue;
+            color: white;
+            font-weight: bolder;
+        }
+    </style>
+</head>
+<body>
+    <div onclick="clicar()" ondblclick="cliqueDuplo()" onmouseleave="sair()" onmouseenter="entrar()" id="div">
+        Texto qualquer
+    </div>
+
+    <script>
+        var div = document.getElementById('div')
+
+        function clicar(){
+            div.style.backgroundColor = 'red'
+            div.innerText = 'Clicou!'
+        }
+
+        function entrar(){
+            div.innerText = "Entrou!"
+            div.style.backgroundColor = '#909090'
+        }
+
+        function sair(){
+            div.style.backgroundColor = 'blue'
+            div.innerText = 'Saiu'
+        }
+
+        function cliqueDuplo(){
+            div.style.backgroundColor = 'pink'
+            div.innerText = 'Clicou duas vezes'
+        }
+    </script>
+</body>
+</html>

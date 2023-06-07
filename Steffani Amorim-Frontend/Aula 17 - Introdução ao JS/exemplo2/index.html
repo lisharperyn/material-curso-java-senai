@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JS</title>
+    
+</head>
+<body>
+    <h1 id="titulo"> Entendendo o JS </h1>
+
+    <p id="p">O JS no navegador funciona atraves do que chamamos de DOM (Document Object model), onde iremos recuperar a tag do html que precisamos fazer alguma alteração.</p>
+
+
+    <script>
+        var titulo = document.getElementById("titulo")
+
+        var paragrafo = document.getElementById('p')
+
+        titulo.style.backgroundColor = 'red'
+
+        titulo.style.border = '5px solid blue'
+
+        titulo.innerText = 'Mudando o texto com JS'
+
+        paragrafo.innerText = 'Estamos começando a entender como funciona o JS'
+    </script>
+</body>
+</html>
